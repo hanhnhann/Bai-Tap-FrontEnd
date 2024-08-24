@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin-top: 10px;
+        }
+
+        input {
+            border-radius: 7px 0 7px 0;
+            border: none;
+            background: rgb(235, 235, 235);
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="firstname">Họ:</label> <br />
+            <input type="text" placeholder="Nhập Họ" name="firstname" id="firstname" required>
+            <!-- required là bắt buộc phải nhập hàng này -->
+        </div>
+
+        <div>
+            <label for="lastname">Tên:</label> <br />
+            <input type="text" placeholder="Nhập Tên" name="lastname" id="lastname" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label> <br />
+            <input type="email" placeholder="Nhập email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="phone_number">Số ĐT:</label> <br />
+            <input type="number" placeholder="Nhập số điện thoại" name="phone_number" id="phone_number" required>
+        </div>
+
+        <div>
+            <label for="location">Địa chỉ:</label> <br />
+            <select name="location" id="location">
+                <option value="kiengiang">Kiên Giang</option>
+                <option value="cantho">Cần Thơ</option>
+                <option value="angiang">An Giang</option>
+                <option value="longan">Long An</option>
+                <option value="baclieu">Bạc Liêu</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="password">Mật khẩu:</label> <br />
+            <input type="password" placeholder="Nhập password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <label for="password">Xác nhận mật khẩu:</label> <br />
+            <input type="password" placeholder="Nhập password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <button type="submit">Đăng ký</button>
+            <button type="reset">Xóa</button>
+        </div>
+    </form>
+</body>
+
+</html>
